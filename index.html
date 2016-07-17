@@ -1,53 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Nolan Dey">
-    <meta name="author" content="Nolan Dey">
-	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="Nolan Dey">
+	    <meta name="author" content="Nolan Dey">
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 
-    <title>Nolan Dey</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
-       
-	    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-		<script src="js/jquery.colorbox.js"></script>
+	    <title>Nolan Dey</title>
 
-		<!-- Bootstrap core CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-
-		
-		<!--Original stylesheet-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css"/>
-				
-		<!-- fonts -->
-		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Share" />
-		
-		<script>
-			$(document).ready(function(){
-				$(".inline").colorbox({inline:true, width:"50%"});
-				$(".group1").colorbox({rel:'group1'});
-				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-			});
-		</script>	
-	</head>
 
- 	<body>
+    </head>
+
+    <body>
+		<!-- SLIDE 1 -->
 		<div id="slide1">
 			<div class="main" align="middle">
 
-				<h1 style="font-weight: 300;">&nbsp;Nolan Dey</h1>
+				<div class="title">Nolan Dey</div>
 
-				<br><br><br>
-				<div class="col-md-1 col-md-offset-4"><a href="http://facebook.com/nolan.dey" target="_blank"><img id="ico" height="74px" src="img/icons/facebook.png" ></a></div>
-				<div class="col-md-1"><a href="http://github.com/ndey96" target="_blank"><img id="ico" height="75px" src="img/icons/github.png" ></a></div>
-				<div class="col-md-1"><a href="http://www.linkedin.com/in/nolandey" target="_blank"><img id="ico" height="75px" src="img/icons/linkedin.png"></a></div>
-				<div class="col-md-1"><a href="mailto:ndey96@gmail.com" target="_blank"><img id="ico" height="75px" src="img/icons/email.png"></a></div>
+				<div class="col-md-1 col-md-offset-4">
+					<a href="resume.pdf" target="_blank" type="application/pdf">
+						<i class="icon fa fa-file-text-o"></i>
+					</a>
 				</div>
-				
-			</div> 
-		</div> 
-	</body>
+				<div class="col-md-1">
+					<a href="https://github.com/ndey96" target="_blank">
+						<i class="icon fa fa-github"></i>
+					</a>
+				</div>
+				<div class="col-md-1">
+					<a href="http://www.linkedin.com/in/nolandey" target="_blank">
+						<i class="icon fa fa-linkedin"></i>
+					</a>
+				</div>
+				<div class="col-md-1">
+					<a href="mailto:ndey96@gmail.com" target="_blank">
+						<i class="icon fa fa-envelope"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="inner" class="arrow-down"></div>
+
+		<!-- Experience -->
+
+		<div id="slide2">
+			<div class="main">
+				<div class="section-title base-color">Experience</div>
+				<ul class="grid">
+					<li>
+						<a class="inline" href="#" data-toggle="modal" data-target="#connected-lab">
+							<span class="grid-icon grid-icon-cl"></span>
+							<h3 class="grid-title">Software Engineer</h3>
+							<span class="grid-category" style="margin-top:10px;">May 2016 - Present</span>
+						</a>
+					</li>
+					<li>
+						<a class="inline" href="#" data-toggle="modal" data-target="#kik-ios">
+							<span class="grid-icon grid-icon-kik"></span>
+							<h3 class="grid-title">Mobile Developer</h3>
+							<span class="grid-category" style="margin-top:10px;">Sept. 2015 - Dec. 2015</span>
+						</a>
+					</li>
+					<li>
+						<a class="inline" href="#" data-toggle="modal" data-target="#kik-qa">
+							<span class="grid-icon grid-icon-kik"></span>
+							<h3 class="grid-title">QA & Release Engineer</h3>
+							<span class="grid-category" style="margin-top:10px;">Jan. 2015 - Apr. 2015</span>
+						</a>
+					</li>
+					<li>
+						<a class="inline" href="#" data-toggle="modal" data-target="#cfc">
+							<span class="grid-icon grid-icon-cfc"></span>
+							<h3 class="grid-title">Head Organizer</h3>
+							<span class="grid-category" style="margin-top:10px;">Dec. 2012 - Present</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Projects -->
+
+		<div id="slide3">
+			<div id="inner" class="arrow-down2"></div>
+
+			<div class="main" align="middle">
+				<div class="section-title accent-color">Projects</div>
+				<div class="col-md-4 portfolio-container">
+					<a href="http://www.getsaveme.com" target="_blank"><img class="portfolio-image" src="img/portfolio/saveme@full.png"></a>
+				</div>
+				<div class="col-md-4 portfolio-container">
+					<a class="inline" href="https://github.com/ndey96/Missile-Command" target="_blank"><img class="portfolio-image" src="img/portfolio/missilecommand@full.png"></a>
+				</div>
+				<div class="col-md-4 portfolio-container">
+					<a class="inline" href="#1adesignproj" data-toggle="modal"><img class="portfolio-image" src="img/portfolio/1adesignproj@full.png"></a>
+				</div>
+				<div class="col-md-4 portfolio-container">
+					<a class="inline" href="#sciencefair" data-toggle="modal"><img class="portfolio-image" src="img/portfolio/sciencefair@full.png"></a>
+				 </div>
+				<div class="col-md-4 portfolio-container">
+					<a class="inline" href="#jugbass" data-toggle="modal"><img class="portfolio-image" src="img/portfolio/jugbass@full.png"></a>
+				</div>
+				<div class="col-md-4 portfolio-container">
+					<a class="inline" href="#" data-toggle="modal" data-target="#library"><img class="portfolio-image" src="img/portfolio/bancroftlib@full.png"></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Experience Modals -->
+
+		<div class="modal fade" id="connected-lab">
+			<div class="modal-dialog">
+			    <div class="modal-content">
+			        <div class="modal-header">
+			        	<a class="modal-header-anchor" href="http://connectedlab.com" target="_blank">
+				            <span class="modal-header-icon grid-icon-cl"></span>
+				            <span class="modal-title">Connected Lab</span>
+			            </a>
+			            <span class="modal-title"> - Software Engineer</span>
+			        </div>
+			        <div class="modal-body">
+			            <ul class="modal-list">
+			            	<li>Implemented role hierarchy for users by restricting endpoints to specific roles </li>
+							<li>Used React to write a front-end which allows you to sort, filter, add, edit and delete objects</li>
+							<li>Worked on iOS app which enabled you to play music to speakers via wifi or bluetooth</li>
+			            </ul>
+			        </div>
+			        <div class="modal-footer">
+			        	<span class="modal-date">May 2016 - Present</span>
+			            <button class="modal-button btn" data-dismiss="modal">Close</button>
+			        </div>
+			    </div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="kik-ios">
+			<div class="modal-dialog">
+			    <div class="modal-content">
+			        <div class="modal-header">
+			        	<a class="modal-header-anchor" href="https://www.kik.com target="_blank">
+				            <span class="modal-header-icon grid-icon-kik"></span>
+				            <span class="modal-title">Kik Interactive</span>
+			            </a>
+			            <span class="modal-title"> - Mobile Developer</span>
+			        </div>
+			        <div class="modal-body">
+			        	<ul class="modal-list">
+				            <li>Developed a performant card stack swiping view using UICollectionView and CoreAnimation </li>
+				            <li>Implemented new network protocol using Google Protobuf with threading and error-handling </li>
+				            <li>Modified conversations list NSFetchedResultsController to support heterogeneous cells </li>
+							<li>Stored data using NSKeyedArchiving, CoreData, and NSUserDefaults </li>
+			        	</ul>
+			        </div>
+			        <div class="modal-footer">
+			        	<span class="modal-date">Sept. 2015 - Dec. 2015</span>
+			            <button class="modal-button btn" data-dismiss="modal">Close</button>
+			        </div>
+			    </div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="kik-qa">
+			<div class="modal-dialog">
+			    <div class="modal-content">
+			        <div class="modal-header">
+			        	<a class="modal-header-anchor" href="https://www.kik.com target="_blank">
+				            <span class="modal-header-icon grid-icon-kik"></span>
+				            <span class="modal-title">Kik Interactive</span>
+			            </a>
+			            <span class="modal-title"> - QA & Release Engineer</span>
+			        </div>
+			        <div class="modal-body">
+						<ul class="modal-list">
+							<li>Added ability to translate messages in iOS app using Watson Language Translation (Hack)</li>
+							<li>Wrote test suites, rigorously tested new features, and worked with developers to find issues</li>
+							<li>Planned and facilitated user experience tests with external users to collect usability data</li>
+						</ul>
+			        </div>
+			        <div class="modal-footer">
+			        	<span class="modal-date">Jan. 2015 - Apr. 2015</span>
+			            <button class="modal-button btn" data-dismiss="modal">Close</button>
+			        </div>
+			    </div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="cfc">
+			<div class="modal-dialog">
+			    <div class="modal-content">
+			        <div class="modal-header">
+			        	<a class="modal-header-anchor" href="http://www.carolsforcans.org target="_blank">
+				            <span class="modal-header-icon grid-icon-cfc"></span>
+				            <span class="modal-title">Carols for Cans</span>
+			            </a>
+			            <span class="modal-title"> - Head Organizer<span>
+			        </div>
+
+			        <div class="modal-body">
+						<ul class="modal-list">
+							<li>Annually organize event where students sing Christmas carols in exchange for food donations </li>
+							<li>Donated 7800 food items since 2012, with 478 students participating from 24 schools
+							</li>
+							<li>Recruited organizers, facilitated meetings, and managed team progress using Trello</li>
+						</ul>
+			        </div>
+			        <div class="modal-footer">
+			        	<span class="modal-date">Dec. 2012 - Present</span>
+			            <button class="modal-button btn" data-dismiss="modal">Close</button>
+			        </div>
+			    </div>
+			</div>
+		</div>
+
+		<!-- Project Modals -->
+
+		<div class="modal fade" id="1adesignproj">
+			<div class="modal-dialog">
+			    <div class="modal-content">
+			        <div class="modal-header">
+			            <span class="modal-title">Steer Safe<span>
+			        </div>
+			        <div class="modal-body">
+			        	<div class="modal-text">The Problem: When racecar drivers crash, the steering wheel violently rotates which can break drivers' wrists if they are holding on to the steering wheel.</div>
+			        	<div class="modal-text">The Solution: A device which stops the steering wheel from rotating if its velocity exceeds a certain threshold.</div>
+						<img src="img/portfolio/1adesignproj@full.png" width="100%">
+						<a href="https://www.youtube.com/watch?v=Nd8EE4xIa8U&feature=youtu.be" target="_blank">
+							<button class="modal-button btn top-margin" >See it in action!</button>
+						</a>
+			        </div>
+			        <div class="modal-footer">
+			        	<span class="modal-date">Nov. 2014</span>
+			            <button class="modal-button btn" data-dismiss="modal">Close</button>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="modal fade" id="sciencefair">
+			<div class="modal-dialog">
+			    <div class="modal-content">
+			        <div class="modal-header">
+			            <span class="modal-title">Harnessing Wind Energy for Use in an Automobile<span>
+			        </div>
+			        <div class="modal-body">
+			        	<div class="modal-text">This project explores feasibility of placing wind turbines inside the grille of a car.</div>
+			        	<div class="modal-text">A wind tunnel measures the drag of a box with a wind turbine inside it and compares it to the energy it generates.</div>
+			        	<div class="modal-text">I presented this project at the 2014 Canada Wide Science Fair.</div>
+						<img src="img/portfolio/sciencefair@full.png" width="100%">
+						<a href="sciencefair.pdf" target="_blank">
+							<button class="modal-button btn top-margin" >Read the full report</button>
+						</a>
+			        </div>
+			        <div class="modal-footer">
+			        	<span class="modal-date">Apr. 2014</span>
+			            <button class="modal-button btn" data-dismiss="modal">Close</button>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="modal fade" id="jugbass">
+			<div class="modal-dialog">
+			    <div class="modal-content">
+			        <div class="modal-header">
+			            <span class="modal-title">Jug Bass<span>
+			        </div>
+			        <div class="modal-body">
+						<div class="modal-title">How it's Made:</div>
+						<ul class="modal-text">
+							<li>Neck: Pine 2x4</li>
+							<li>Body: Water Jug</li>
+							<li>Nut: Laminate flooring piece</li>
+							<li>Bridge: Store-bought</li>
+							<li>Strings: Store-bought</li>
+							<li>Tuning Pegs: Store-bought</li>
+							<li>Fret lines: Hand-drawn</li>
+						</ul>
+						<img src="img/portfolio/jugbass@full.png" width="100%">
+			        </div>
+			        <div class="modal-footer">
+			        	<span class="modal-date">Dec. 2012</span>
+			            <button class="modal-button btn" data-dismiss="modal">Close</button>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="modal fade" id="library">
+			<div class="modal-dialog">
+			    <div class="modal-content">
+			        <div class="modal-header">
+			            <span class="modal-title">Bancroft Library Proposal<span>
+			        </div>
+			        <div class="modal-body">
+						<div class="modal-title">How it's Made:</div>
+						<ul class="modal-text">
+							<li>Floorplan: Designed using AutoCAD</li>
+							<li>Walls: Spray-painted foam core</li>
+							<li>Columns: Tim Hortons Coffee Stir-sticks</li>
+							<li>Hand Rails: Tim Hortons Coffee Stir-sticks</li>
+						</ul>
+						<img src="img/portfolio/bancroftlib@full.png" width="100%">
+			        </div>
+			        <div class="modal-footer">
+			        	<span class="modal-date">Feb. 2013</span>
+			            <button class="modal-button btn" data-dismiss="modal">Close</button>
+			        </div>
+			    </div>
+			</div>
+		</div>
+
+	    <script src="js/jquery-2.2.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+    </body>
 </html>
+<!----- SLIDES END --->
