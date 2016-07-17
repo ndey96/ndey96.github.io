@@ -174,7 +174,7 @@ body {
 }
 
 .portfolio-image {
-    border:3px solid #C8E3F4;
+    border: 3px solid var(--base-color);
     width: 100%;
     max-width: 400px;
     opacity: 1.0;
@@ -182,7 +182,7 @@ body {
 }
 
 .portfolio-image:hover {
-    border:3px solid #C8E3F4;
+    border:3px solid var(--base-color);
     opacity: 0.6;
     filter: alpha(opacity=60);
 	transition: opacity .20s ease-in-out;
@@ -249,7 +249,7 @@ body {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	/*border: 1px solid #ddd;*/
+	/*border: 1px solid var(--tertiary-color);*/
 }
 
 /* Clear floats */
@@ -270,7 +270,7 @@ body {
 	float: left;
 	height: 460px;
 	text-align: center;
-	border: 1px solid #ddd;
+	border: 1px solid var(--tertiary-color);
 }
 
 /* we are using a combination of borders and box shadows to control the grid lines */
@@ -280,7 +280,7 @@ body {
 
 .grid li:nth-child(3n-1),
 .grid li:nth-child(3n-2) {
-	box-shadow: 1px 0 0 #ddd;
+	box-shadow: 1px 0 0 var(--tertiary-color);
 }
 */
 /* anchor style */
@@ -404,7 +404,7 @@ body {
 
 	/* reset the grid lines */
 	.grid li:nth-child(-n+3){
-		border-top: 1px solid #ddd;
+		border-top: 1px solid var(--tertiary-color);
 	}
 
 	.grid li:nth-child(3n-1),
@@ -417,7 +417,7 @@ body {
 	}
 
 	.grid li:nth-child(2n-1) {
-		box-shadow: 1px 0 0 #ddd;
+		box-shadow: 1px 0 0 var(--tertiary-color);
 	}
 }
 
@@ -427,7 +427,7 @@ body {
 	}
 
 	.grid li:nth-child(-n+2){
-		border-top: 1px solid #ddd;
+		border-top: 1px solid var(--tertiary-color);
 	}
 
 	.grid li:nth-child(2n-1) {
