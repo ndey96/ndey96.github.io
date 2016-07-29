@@ -14,10 +14,41 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css"/>
-
     </head>
 
     <body>
+		<nav class="navbar-background navbar-fixed-top">
+	        <!-- Brand and toggle get grouped for better mobile display -->
+	        <div class="navbar-header">
+	            <button type="button" class="navbar-toggle navbar-toggle-button collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	              <span class="sr-only">Toggle navigation</span>
+	              <span class="icon-bar navbar-icon-bar"></span>
+	              <span class="icon-bar navbar-icon-bar"></span>
+	              <span class="icon-bar navbar-icon-bar"></span>
+	            </button>
+	            <a href="#slide1">
+	            	<img src="img/favicon.ico">
+	            </a>
+	        </div>
+	        <!-- Collect the nav links, forms, and other content for toggling -->
+	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	            <ul class="nav navbar-nav navbar-right">
+	                <li>
+	                	<a class="navbar-item" href="#slide1">About Me</a>
+	                </li>
+	                <li>
+	                	<a class="navbar-item" href="#slide2">Experience</a>
+	                </li>
+	                <li>
+	                	<a class="navbar-item" href="#slide3">Projects</a>
+	                </li>
+	                <li>
+	                	<a class="navbar-item" href="resume.pdf" target="_blank" type="application/pdf">Resume</a>
+	                </li>
+	            </ul>
+	        </div>
+		</nav>
+
 		<!-- SLIDE 1 -->
 		<div id="slide1">
 			<div class="main" align="middle">
@@ -47,11 +78,11 @@
 			</div>
 		</div>
 
-		<div id="inner" class="arrow-down"></div>
 
 		<!-- Experience -->
 
 		<div id="slide2">
+			<div id="inner" class="arrow-down"></div>
 			<div class="main">
 				<div class="section-title base-color">Experience</div>
 				<ul class="grid">
@@ -316,7 +347,9 @@
 		</div>
 
 	    <script src="js/jquery-2.2.4.min.js"></script>
+	    <script src="js/jquery.scrollTo.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scrollTo.js"></script>
     </body>
 </html>
 <!----- SLIDES END --->
