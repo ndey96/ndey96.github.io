@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="description" content="Nolan Dey">
-	    <meta name="author" content="Nolan Dey">
-	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Nolan Dey">
+    <meta name="author" content="Nolan Dey">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
-
-	    <title>Nolan Dey</title>
-
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css"/>
-    </head>
+    <title>Nolan Dey</title>
+  </head>
 
-    <body>
+  <body>
 		<nav class="navbar-background navbar-fixed-top">
 	        <!-- Brand and toggle get grouped for better mobile display -->
 	        <div class="navbar-header">
@@ -83,6 +81,7 @@
 
 
 		<!-- Experience -->
+    <!-- TODO: Add cap1 and parabol -->
 
 		<div id="slide2">
 			<div id="inner" class="arrow-down"></div>
@@ -117,33 +116,150 @@
 					</a>
 				</li>
 			</ul>
-		</div>
 
 		<!-- Projects -->
 
-		<div id="slide3">
-			<div id="inner" class="arrow-down2"></div>
+		<div id="slide2">
+			<!-- <div id="inner" class="arrow-down2"></div> -->
 
-			<div class="section-title accent-color">Projects</div>
-			<div class="col-md-4 portfolio-container">
-				<a href="http://www.getsaveme.com" target="_blank"><img class="portfolio-image" src="img/portfolio/saveme@thumb.png"></a>
-			</div>
-			<div class="col-md-4 portfolio-container">
-				<a class="inline" href="https://github.com/ndey96/Missile-Command" target="_blank"><img class="portfolio-image" src="img/portfolio/missilecommand@thumb.png"></a>
-			</div>
-			<div class="col-md-4 portfolio-container">
-				<a class="inline" href="#1adesignproj" data-toggle="modal"><img class="portfolio-image" src="img/portfolio/1adesignproj@thumb.png"></a>
-			</div>
-			<div class="col-md-4 portfolio-container">
-				<a class="inline" href="#sciencefair" data-toggle="modal"><img class="portfolio-image" src="img/portfolio/sciencefair@thumb.png"></a>
-			 </div>
-			<div class="col-md-4 portfolio-container">
-				<a class="inline" href="#jugbass" data-toggle="modal"><img class="portfolio-image" src="img/portfolio/jugbass@thumb.png"></a>
-			</div>
-			<div class="col-md-4 portfolio-container">
-				<a class="inline" href="#" data-toggle="modal" data-target="#library"><img class="portfolio-image" src="img/portfolio/bancroftlib@thumb.png"></a>
-			</div>
-		</div>
+			<div class="section-title base-color">Projects</div>
+
+      <!-- NEW PROJECTS SECTION -->
+      <!-- TODO: Add doYouEvenLift -->
+
+
+      <div class="projects">
+        <div class="project">
+          <div class="project-image">
+            <img src="img/portfolio/bitnomics@thumb.png">
+          </div>
+          <div class="project-text">
+            <div class="project-title">Bitnomics</div>
+            <div class="project-description">
+              <p>Displayed real-time bitcoin transactions by feeding the output from a Coinbase API web socket into a Kafka message queue, storing them in a CockroachDB (PostgreSQL) instance, and displaying them in a Node/React app<p>
+              <a href="https://github.com/LaurierMantel/bitnomics" target="_blank">
+                <button class="modal-button btn top-margin" >Source Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="img/portfolio/fbnewsfeedblocker@thumb.png">
+          </div>
+          <div class="project-text">
+            <div class="project-title">Facebook Newsfeed Blocker</div>
+            <div class="project-description">
+              <p>Released Safari Extension hiding Facebook Newsfeed while allowing other Facebook features</p>
+              <a href="https://safari-extensions.apple.com/details/?id=com.nolandey.bundleid-A5P7J5U845" target="_blank">
+                <button class="modal-button btn top-margin" >Download it!</button>
+              </a>
+              <a href="https://github.com/ndey96/FBNewsfeedBlocker" target="_blank">
+                <button class="modal-button btn top-margin" >Source Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="img/portfolio/saveme@thumb.png">
+          </div>
+          <div class="project-text">
+            <div class="project-title">Save Me</div>
+            <div class="project-description">
+              <p>- Implemented app in Swift that calls 911 and texts emergency contacts in a single tap</p>
+              <p>- Interfaced with Node backend using Twilio to send texts when requests are received</p>
+              <a href="https://github.com/ndey96/SaveMe-iPhone" target="_blank">
+                <button class="modal-button btn top-margin" >iOS Source Code</button>
+              </a>
+              <a href="https://github.com/LaurierMantel/SaveMe-API" target="_blank">
+                <button class="modal-button btn top-margin" >Backend Source Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="img/portfolio/missilecommand@thumb.png">
+          </div>
+          <div class="project-text">
+            <div class="project-title">Missile Command</div>
+            <div class="project-description">
+              <p>- Built Space Invaders game using an Arduino, an LED matrix, logic gates, and buttons</p>
+              <p>- Solved problems involving limited pins, hardware interrupts, and slow processor speed</p>
+              <a href="https://youtu.be/K2Q93NSWim4" target="_blank">
+                <button class="modal-button btn top-margin" >See it in action!</button>
+              </a>
+              <a href="https://github.com/ndey96/Missile-Command" target="_blank">
+                <button class="modal-button btn top-margin" >Source Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="img/portfolio/1adesignproj@thumb.png">
+          </div>
+          <div class="project-text">
+            <div class="project-title">Steer Safe</div>
+            <div class="project-description">
+              <p>- Problem: When racecar drivers crash, the steering wheel violently rotates which can break drivers' wrists if they are holding on to the steering wheel</p>
+              <p>- Solution: A device which stops the steering wheel from rotating if its velocity exceeds a certain threshold</p>
+              <a href="https://www.youtube.com/watch?v=Nd8EE4xIa8U&feature=youtu.be" target="_blank">
+                <button class="modal-button btn top-margin" >See it in action!</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="img/portfolio/sciencefair@thumb.png">
+          </div>
+          <div class="project-text">
+            <div class="project-title">Harnessing Wind Energy for Use in an Automobile</div>
+            <div class="project-description">
+              <p>- Explored feasibility of placing wind turbines inside the grille of a car</p>
+              <p>- Constructed wind tunnel and instrumented it to measure drag of objects</p>
+              <a href="sciencefair.pdf" target="_blank">
+                <button class="modal-button btn top-margin" >Full Report</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="img/portfolio/jugbass@thumb.png">
+          </div>
+          <div class="project-text">
+            <div class="project-title">Jug Bass</div>
+            <div class="project-description">
+              <h4>How it's Made:</h4>
+              <p>Neck: Pine 2x4</p>
+              <p>Body: Water Jug</p>
+              <p>Nut: Laminate flooring piece</p>
+              <p>Bridge: Store-bought</p>
+              <p>Strings: Store-bought</p>
+              <p>Tuning Pegs: Store-bought</p>
+              <p>Fret lines: Hand-drawn</p>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="img/portfolio/bancroftlib@thumb.png">
+          </div>
+          <div class="project-text">
+            <div class="project-title">Bancroft Library Proposal</div>
+            <div class="project-description">
+              <h4>How it's Made:</h4>
+              <p>Floorplan: Designed using AutoCAD</p>
+              <p>Walls: Spray-painted foam core</p>
+              <p>Columns: Tim Hortons Coffee Stir-sticks</p>
+              <p>Hand Rails: Tim Hortons Coffee Stir-sticks</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 		<!-- Experience Modals -->
 
@@ -238,9 +354,8 @@
 			        <div class="modal-body">
 						<ul class="modal-list">
 							<li>Annually organize event where students sing Christmas carols in exchange for food donations </li>
-							<li>Donated 7800 food items since 2012, with 478 students participating from 24 schools
-							</li>
-							<li>Recruited organizers, facilitated meetings, and managed team progress using Trello</li>
+							<li>Donated 8849 food items to local food banks since 2012, with 514 students participating</li>
+							<li>Recruited organizers, coordinated logistics, facilitated meetings, and managed sales funnel</li>
 						</ul>
 			        </div>
 			        <div class="modal-footer">
@@ -251,105 +366,9 @@
 			</div>
 		</div>
 
-		<!-- Project Modals -->
-
-		<div class="modal fade" id="1adesignproj">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-			            <span class="modal-title">Steer Safe<span>
-			        </div>
-			        <div class="modal-body">
-			        	<div class="modal-text">The Problem: When racecar drivers crash, the steering wheel violently rotates which can break drivers' wrists if they are holding on to the steering wheel.</div>
-			        	<div class="modal-text">The Solution: A device which stops the steering wheel from rotating if its velocity exceeds a certain threshold.</div>
-						<img src="img/portfolio/1adesignproj@full.png" width="100%">
-						<a href="https://www.youtube.com/watch?v=Nd8EE4xIa8U&feature=youtu.be" target="_blank">
-							<button class="modal-button btn top-margin" >See it in action!</button>
-						</a>
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">Nov. 2014</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
-		<div class="modal fade" id="sciencefair">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-			            <span class="modal-title">Harnessing Wind Energy for Use in an Automobile<span>
-			        </div>
-			        <div class="modal-body">
-			        	<div class="modal-text">This project explores feasibility of placing wind turbines inside the grille of a car.</div>
-			        	<div class="modal-text">A wind tunnel measures the drag of a box with a wind turbine inside it and compares it to the energy it generates.</div>
-			        	<div class="modal-text">I presented this project at the 2014 Canada Wide Science Fair.</div>
-						<img src="img/portfolio/sciencefair@full.png" width="100%">
-						<a href="sciencefair.pdf" target="_blank">
-							<button class="modal-button btn top-margin" >Read the full report</button>
-						</a>
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">Apr. 2014</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
-		<div class="modal fade" id="jugbass">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-			            <span class="modal-title">Jug Bass<span>
-			        </div>
-			        <div class="modal-body">
-						<div class="modal-title">How it's Made:</div>
-						<ul class="modal-text">
-							<li>Neck: Pine 2x4</li>
-							<li>Body: Water Jug</li>
-							<li>Nut: Laminate flooring piece</li>
-							<li>Bridge: Store-bought</li>
-							<li>Strings: Store-bought</li>
-							<li>Tuning Pegs: Store-bought</li>
-							<li>Fret lines: Hand-drawn</li>
-						</ul>
-						<img src="img/portfolio/jugbass@full.png" width="100%">
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">Dec. 2012</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
-		<div class="modal fade" id="library">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-			            <span class="modal-title">Bancroft Library Proposal<span>
-			        </div>
-			        <div class="modal-body">
-						<div class="modal-title">How it's Made:</div>
-						<ul class="modal-text">
-							<li>Floorplan: Designed using AutoCAD</li>
-							<li>Walls: Spray-painted foam core</li>
-							<li>Columns: Tim Hortons Coffee Stir-sticks</li>
-							<li>Hand Rails: Tim Hortons Coffee Stir-sticks</li>
-						</ul>
-						<img src="img/portfolio/bancroftlib@full.png" width="100%">
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">Feb. 2013</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
-
-	    <script src="js/jquery-2.2.4.min.js"></script>
-	    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/scrollTo.js"></script>
-    </body>
+  </body>
 </html>
-<!----- SLIDES END --->
