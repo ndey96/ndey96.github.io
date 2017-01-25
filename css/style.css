@@ -296,6 +296,45 @@ body {
 
 /* Work Experience Grid */
 
+.jobs {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.job-container {
+	width: 50%;
+	float: left;
+	height: 460px;
+	text-align: center;
+	border: 1px solid var(--tertiary-color);
+}
+
+.job {
+	display: block;
+	height: 100%;
+	color: var(--accent-color);
+	-webkit-transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	transition: background 0.2s;
+}
+
+.job:hover {
+	background-color: var(--tertiary-color);
+	text-decoration: none;
+}
+
+.job-logo {
+	width: 50%;
+}
+
+.job-title {
+
+}
+
+.job-date {
+
+}
 @font-face {
     font-family: 'icomoon';
     src:    url('../fonts/icomoon/icomoon.eot?gsnrf7');
@@ -364,6 +403,7 @@ body {
 	-webkit-transition: background 0.2s;
 	-moz-transition: background 0.2s;
 	transition: background 0.2s;
+	text-decoration: none;
 }
 
 /* the icon with pseudo class for icon font */
