@@ -25,6 +25,10 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 .top-margin {
 	margin-top: 15px;
 }
@@ -329,6 +333,11 @@ body {
 
 .job:hover {
 	background-color: #D6D6F9;
+	text-decoration: none;
+}
+
+.job:focus {
+	outline: none;
 	text-decoration: none;
 }
 
