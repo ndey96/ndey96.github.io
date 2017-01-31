@@ -220,8 +220,8 @@ body {
 }
 
 .job {
-	display: block;
 	height: 100%;
+	width: 100%;
 	padding: 0 10px;
 	color: var(--accent-color);
 	-webkit-transition: background 0.2s;
