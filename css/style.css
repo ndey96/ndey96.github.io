@@ -127,7 +127,7 @@ body {
 }
 
 .project {
-	padding: 20px 0;
+	padding: 40px 0;
 	border-top: 1px var(--tertiary-color) solid;
 	border-right: 1px var(--tertiary-color) solid;
 	border-left: 1px var(--tertiary-color) solid;
@@ -156,6 +156,7 @@ body {
 .project-title {
 	font-size: 32px;
 	font-weight: 400;
+	margin-bottom: 20px;
 }
 
 .project-description {
