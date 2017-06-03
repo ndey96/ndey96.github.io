@@ -95,7 +95,7 @@ body {
 	background-color: var(--accent-color);
 	color: var(--base-color);
 	border-radius: 3px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .modal-button:hover {
@@ -127,7 +127,7 @@ body {
 }
 
 .project {
-	padding: 20px 0;
+	padding: 40px 0;
 	border-top: 1px var(--tertiary-color) solid;
 	border-right: 1px var(--tertiary-color) solid;
 	border-left: 1px var(--tertiary-color) solid;
@@ -156,6 +156,7 @@ body {
 .project-title {
 	font-size: 32px;
 	font-weight: 400;
+	margin-bottom: 20px;
 }
 
 .project-description {
@@ -199,6 +200,10 @@ body {
 	text-align: center;
 }
 
+.end-title {
+	margin-bottom: 30px;
+}
+
 .projects-section-title {
 	margin-top: 20px;
 }
@@ -209,6 +214,8 @@ body {
 	list-style: none;
 	padding: 0;
 	display: inline-table;
+	border-top: 1px solid var(--tertiary-color);
+	border-left: 1px solid var(--tertiary-color);
 }
 
 .job-container {
@@ -216,7 +223,8 @@ body {
 	display: inline-flex;
 	height: 400px;
 	text-align: center;
-	border: 1px solid var(--tertiary-color);
+	border-right: 1px solid var(--tertiary-color);
+	border-bottom: 1px solid var(--tertiary-color);
 }
 
 .job {
