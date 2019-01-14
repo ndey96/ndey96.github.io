@@ -14,8 +14,8 @@ body {
 	margin: 0;
 	padding: 50px 0 0 0;
 	width: 100%;
-	font-weight: normal;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 .top-margin {
@@ -27,7 +27,8 @@ body {
 	height: 0;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-top: 20px solid var(--accent-color);
+	/* border-top: 20px solid var(--accent-color); */
+	border-top: 20px solid black;
 }
 
 #inner {
@@ -36,7 +37,8 @@ body {
 }
 
 .section1 {
-	background-color: var(--accent-color);
+	background-color: black;
+	/* background-color: var(--accent-color); */
 	padding: 90px 0 70px 0;
 }
 
@@ -47,7 +49,7 @@ body {
 
 .title {
 	font-size: 115px;
-	font-weight: 300;
+	font-weight: 400;
 	text-align: center;
 	color: var(--tertiary-color);
 	margin-bottom: 30px;
@@ -138,10 +140,13 @@ body {
 }
 
 .modal-button {
-	background-color: var(--accent-color);
-	color: var(--base-color);
+	background-color: var(--base-color);
+	color: var(--tertiary-color);
 	border-radius: 3px;
   font-size: 16px;
+}
+.modal-button:hover {
+	color: var(--accent-color);
 }
 
 .modal-list {
@@ -163,15 +168,15 @@ body {
 
 .projects {
 	display: inline-table;
-	border-bottom: 1px var(--accent-color) solid;
+	/* border-bottom: 1px var(--accent-color) solid; */
 	margin-bottom: 20px;
 }
 
 .project {
 	padding: 40px 0;
-	border-top: 1px var(--accent-color) solid;
+	/* border-top: 1px var(--accent-color) solid;
 	border-right: 1px var(--accent-color) solid;
-	border-left: 1px var(--accent-color) solid;
+	border-left: 1px var(--accent-color) solid; */
 	display: inline-flex;
 	width: 50%
 }
@@ -201,8 +206,8 @@ body {
 }
 
 .project-description {
-	font-size: 16px;
-	font-weight: 300;
+	font-size: 18px;
+	font-weight: 400;
 }
 
 .portfolio-container {
@@ -231,8 +236,8 @@ body {
 	list-style: none;
 	padding: 0;
 	display: inline-table;
-	border-top: 1px solid var(--accent-color);
-	border-left: 1px solid var(--accent-color);
+	/* border-top: 1px solid var(--accent-color);
+	border-left: 1px solid var(--accent-color); */
 }
 
 .job-container {
@@ -240,8 +245,8 @@ body {
 	display: inline-flex;
 	height: 400px;
 	text-align: center;
-	border-right: 1px solid var(--accent-color);
-	border-bottom: 1px solid var(--accent-color);
+	/* border-right: 1px solid var(--accent-color);
+	border-bottom: 1px solid var(--accent-color); */
 }
 
 .job {
@@ -275,10 +280,12 @@ body {
 	font-size: 32px;
 	font-weight: 400;
 	line-height: 1.1;
+	color: var(--base-color);
 }
 
 .job-date {
-
+	font-size: 20px;
+	color: var(--base-color);
 }
 
 @media screen and (max-width: 50em) {
