@@ -188,7 +188,6 @@ body {
 }
 
 .project-image img {
-	border: 1px solid var(--accent-color);
 	width: 100%;
 	max-width: 350px;
 }
