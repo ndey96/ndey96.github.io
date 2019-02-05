@@ -253,12 +253,12 @@ body {
 	width: 100%;
 	padding: 0 10px;
 	color: var(--base-color);
-	-webkit-transition: background 0.2s;
+	/* -webkit-transition: background 0.2s;
 	-moz-transition: background 0.2s;
-	transition: background 0.2s;
+	transition: background 0.2s; */
 }
 
-.job:hover {
+/* .job:hover {
 	background-color: var(--quaternary-color);
 	color: var(--base-color);
 	text-decoration: none;
@@ -268,7 +268,7 @@ body {
 	color: var(--accent-color);
 	outline: none;
 	text-decoration: none;
-}
+} */
 
 .job-logo {
 	width: 18em;
