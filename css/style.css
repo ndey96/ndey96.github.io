@@ -91,6 +91,21 @@ body {
 	filter: alpha(opacity=60);
 }
 
+.cv-icon {
+	height: 70px;
+	margin-bottom: 35px;
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	transition: opacity .20s ease-in-out;
+	-moz-transition: opacity .20s ease-in-out;
+	-webkit-transition: opacity .20s ease-in-out;
+}
+
+.cv-icon:hover {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
 .portrait-container {
 	text-align: center;
 	margin-bottom: 20px;
@@ -166,6 +181,38 @@ body {
 	top: -3px
 }
 
+.educations {
+	display: inline-table;
+	/* border-bottom: 1px var(--accent-color) solid; */
+	margin-bottom: 20px;
+}
+
+.education {
+	padding: 40px 0;
+	/* border-top: 1px var(--accent-color) solid;
+	border-right: 1px var(--accent-color) solid;
+	border-left: 1px var(--accent-color) solid; */
+	display: inline-flex;
+	width: 50%
+}
+
+.education-image {
+	display: inline-block;
+	margin-left: 20px;
+	width: 20%;
+}
+
+.education-image img {
+	width: 100%;
+	max-width: 350px;
+}
+
+.education-text {
+	color: var(--base-color);
+	margin: 0 10px 0 20px;
+	width: 80%;
+}
+
 .projects {
 	display: inline-table;
 	/* border-bottom: 1px var(--accent-color) solid; */
@@ -184,7 +231,7 @@ body {
 .project-image {
 	display: inline-block;
 	margin-left: 20px;
-	width: 50%;
+	width: 30%;
 }
 
 .project-image img {
@@ -195,7 +242,7 @@ body {
 .project-text {
 	color: var(--base-color);
 	margin: 0 10px 0 20px;
-	width: 50%;
+	width: 70%;
 }
 
 .project-title {
