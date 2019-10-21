@@ -1,675 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Nolan Dey">
     <meta name="author" content="Nolan Dey">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Nolan Dey</title>
     <!-- Google Analytics -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-93904294-1', 'auto');
-      ga('send', 'pageview');
+        (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-93904294-1', 'auto');
+    ga('send', 'pageview');
     </script>
-  </head>
+</head>
 
-  <body class="custom-body">
-		<nav class="navbar-background navbar-fixed-top">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle navbar-toggle-button collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar navbar-icon-bar"></span>
-          <span class="icon-bar navbar-icon-bar"></span>
-          <span class="icon-bar navbar-icon-bar"></span>
-        </button>
-        <a href="#section1">
-        	<img src="img/favicon.ico">
-        </a>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-          	<a class="navbar-item" href="#about-me">Contact</a>
-          </li>
-          <li>
-          	<a class="navbar-item" href="#education">Education</a>
-          </li>
-          <li>
-          	<a class="navbar-item" href="#experience">Experience</a>
-          </li>
-          <li>
-          	<a class="navbar-item" href="#projects">Projects</a>
-          </li>
-          <li>
-          	<a class="navbar-item" href="resume.pdf" target="_blank" type="application/pdf">CV</a>
-          </li>
-        </ul>
-      </div>
-		</nav>
-
-		<!-- About Me -->
-		<div class="section1" id="about-me">
-			<div class="title">Nolan Dey</div>
-      <div class="portrait-container">
-        <img class="portrait" src="img/paris_headshot.png">
-      </div>
-      <div class="tagline">MASc Candidate in Systems Design Engineering</div>
-      <!-- <div class="icons">
-        <div class="tagline">CV / GitHub /  LinkedIn  / ndey96@gmail.com</div>
-      </div> -->
-      <div class="icons">
-				<div class="icon-container">
-					<a href="resume.pdf" target="_blank" type="application/pdf">
-            <img class="cv-icon" src="img/cv.svg">
-						<!-- <i class="icon fa fa-file-text-o"></i> -->
-					</a>
-				</div>
-				<div class="icon-container">
-					<a href="https://github.com/ndey96" target="_blank">
-						<i class="icon fa fa-github"></i>
-					</a>
-				</div>
-				<div class="icon-container">
-					<a href="http://www.linkedin.com/in/nolandey" target="_blank">
-						<i class="icon fa fa-linkedin"></i>
-					</a>
-				</div>
-				<div class="icon-container">
-					<a href="mailto:nsdey@uwaterloo.ca" target="_blank">
-						<i class="icon fa fa-at"></i>
-					</a>
-				</div>
-			</div>
-    </div>
-    <div class="arrow-down" id="inner"></div>
-
-    <div class="section-title projects-section-title" id="education">Education</div>
-    <div class="educations">
-      <div class="education">
-        <div class="education-image">
-          <img src="img/uw.png">
+<body class="custom-body">
+    <div class="section1" id="about-me">
+      <div class='section1-container'>
+        <div class="title">Nolan Dey</div>
+        <div class="portrait-container">
+            <img class="portrait" src="img/paris_headshot.png">
         </div>
-        <div class="education-text">
-          <div class="project-title">MASc in Systems Design Engineering</div>
-          <div class="project-description">
-            <p>Advisors: Bryan Tripp, Graham Taylor, Alexander Wong<p>
-            <p>Topic: Neuroscience & Deep Learning<p>
-          </div>
+        <div class='bio'>
+          <p>I am a MASc student in Systems Design Engineering at the University of Waterloo, where I am advised by Bryan Tripp, Graham Taylor, and Alexander Wong. My thesis topic is adapting neuroscience methods to explain deep network function. My research interests include using neuroscience to inspire neural algorithms, neural network explainability, and data efficient reinforcement learning.</p>
+          <p>I completed my BASc in Systems Design Engineering at the University of Waterloo, where I completed machine learning internships at Apple, Capital One, and Mind Foundry.</p>
         </div>
-      </div>
-      <div class="education">
-        <div class="education-image">
-          <img src="img/uw.png">
-        </div>
-        <div class="education-text">
-          <div class="project-title">BASc in Systems Design Engineering</div>
-          <div class="project-description">
-            <p>GPA 3.7/4, Graduated with Distinction<p>
-            <p>Relevant Courses: Machine Intelligence, Applied Artificial Intelligence, Image Processing, Optimization<p>
-          </div>
-        </div>
+        <div class='links'><a href="mailto:nsdey@uwaterloo.ca" target="_blank">ndey96@gmail.com</a>  /  <a href="resume.pdf" target="_blank" type="application/pdf">CV</a>  /  <a href="https://github.com/ndey96" target="_blank">GitHub</a>  /  <a href="http://www.linkedin.com/in/nolandey" target="_blank">LinkedIn</a></div>
       </div>
     </div>
-
-		<!-- Experience -->
-		<div class="section2">
-			<div class="section-title" id="experience">Experience</div>
-      <div class="jobs">
-        <div class="job-container">
-          <span class="job" href="#" data-target="#mf">
-            <img class="job-logo" src="img/mf.png">
-            <div class="job-title">Machine Learning Research Intern</div>
-            <div class="job-date">Jun. 2018 - Aug. 2018</div>
-          </a>
-        </div>
-        <div class="job-container">
-          <span class="job" href="#" data-target="#apple">
-            <img class="job-logo" src="img/apple.svg">
-            <div class="job-title">Machine Learning & Web Intern</div>
-            <div class="job-date">Sep. 2017 - Dec. 2017</div>
-          </a>
-        </div>
-        <div class="job-container">
-          <span class="job" href="#" data-target="#uw">
-            <img class="job-logo" src="img/uw.png">
-            <div class="job-title">Undergraduate Research Assistant</div>
-            <div class="job-date">Jul. 2017 - Aug. 2017</div>
-          </a>
-        </div>
-        <div class="job-container">
-          <span class="job" href="#" data-target="#capital-one">
-            <img class="job-logo" src="img/cap1.svg">
-            <div class="job-title">Data Science Intern</div>
-            <div class="job-date">Jan. 2017 - Apr. 2017</div>
-          </a>
-        </div>
-        <div class="job-container">
-          <span class="job" href="#" data-target="#parabol">
-            <img class="job-logo" src="img/para.svg">
-            <div class="job-title">Full-Stack Developer Intern</div>
-            <div class="job-date">Jan. 2017 - Apr. 2017</div>
-          </a>
-        </div>
-        <div class="job-container">
-          <span class="job" href="#" data-target="#connected-lab">
-            <img class="job-logo" src="img/cl.svg">
-            <div class="job-title">Software Engineering Intern</div>
-            <div class="job-date">May 2016 - Aug. 2016</div>
-          </a>
-        </div>
-        <div class="job-container">
-          <span class="job" href="#" data-target="#kik-ios">
-            <img class="job-logo" src="img/kik.svg">
-            <div class="job-title">iOS Developer Intern</div>
-            <div class="job-date">Sep. 2015 - Dec. 2015</div>
-          </a>
-        </div>
-        <div class="job-container">
-          <span class="job" href="#" data-target="#kik-qa">
-            <img class="job-logo" src="img/kik.svg">
-            <div class="job-title">Quality Assurance Intern</div>
-            <div class="job-date">Jan. 2015 - Apr. 2015</div>
-          </a>
-        </div>
-        <div class="job-container">
-          <span class="job" href="#" data-target="#cfc">
-            <img class="job-logo" src="img/cfc.png">
-            <div class="job-title">Head Organizer</div>
-            <div class="job-date">Dec. 2012 - Dec. 2019</div>
-          </a>
-        </div>
-      </div>
-
-      <!-- Projects -->
-      <div class="section-title projects-section-title" id="projects">Projects</div>
-      <div class="projects">
+    <!-- Projects -->
+    <!-- <div class="section-title projects-section-title" id="projects">Projects</div>
+    <div class="projects">
         <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/mnist.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Adversarial MNIST Digits</div>
-            <div class="project-description">
-              <p>Used the fast gradient sign method (Goodfellow et al.) to generate adversarial inputs for the MNIST dataset.<p>
-              <a href="https://github.com/ndey96/adversarial-mnist" target="_blank">
-                <button class="modal-button btn top-margin">Source Code</button>
-              </a>
+            <div class="project-image">
+                <img src="img/cfc.png">
             </div>
-          </div>
+            <div class="project-text">
+                <div class="project-title">Carols for Cans</div>
+                <div class="project-description">
+                    <ul>
+                        <li>Annually organize event where students sing Christmas carols in exchange for food donations </li>
+                        <li>Donated 9864 food items to local food banks since 2012, with 568 students participating</li>
+                        <li>Recruited organizers, coordinated logistics, facilitated meetings, and managed sales funnel</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/reversi.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Reversi AI</div>
-            <div class="project-description">
-              <p>A command line implentation of the game Reversi featuring an AI which uses the A* search algorithm.<p>
-              <a href="https://github.com/ndey96/reversi-ai" target="_blank">
-                <button class="modal-button btn top-margin">Source Code</button>
-              </a>
+            <div class="project-image">
+                <img src="img/cfc.png">
             </div>
-          </div>
+            <div class="project-text">
+                <div class="project-title">SYDE Survey 2019</div>
+                <div class="project-description">
+                    <ul>
+                        <li>Annually organize event where students sing Christmas carols in exchange for food donations </li>
+                        <li>Donated 9864 food items to local food banks since 2012, with 568 students participating</li>
+                        <li>Recruited organizers, coordinated logistics, facilitated meetings, and managed sales funnel</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/ura@thumb.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">One Button Phone</div>
-            <div class="project-description">
-              <p>Enabled a woman with advanced multiple sclerosis to initiate and receive calls from a long-term care facility. This was accomplished by mounting a smartphone on her bed with a custom Android application that acts as a single button phone.<p>
-              <a href="https://github.com/ndey96/URA-One-Button-Phone" target="_blank">
-                <button class="modal-button btn top-margin">Source Code</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/trmbn@thumb.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">TR-MBN</div>
-            <div class="project-description">
-              <p>Used the iterative design process to create a MIDI trombone with significant ergonomic improvements over a normal trombone as well as added functionality such as sustain. Leveraged a pressure sensor for volume control, a linear softpot potentiometer for pitch control, and force sensors to detect button presses.<p>
-              <a href="https://youtu.be/URPeQhhlCTU" target="_blank">
-                <button class="modal-button btn top-margin">Hear this bad boy!</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/json.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">JSON Validation API</div>
-            <div class="project-description">
-              <p>REST API written in go which allows you to upload/download JSON schemas and validate JSON documents against the schemas you uploaded. Leverages gojsonschema for document validation and PostgreSQL for storage.<p>
-              <a href="https://github.com/ndey96/json-validation-api" target="_blank">
-                <button class="modal-button btn top-margin">Source Code</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/heatmap.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Uber Usage Map</div>
-            <div class="project-description">
-              <p>Generated a heat map of Uber usage in New York using the Google Maps API for the front-end and pandas for the data wrangling (Citadel Datathon)<p>
-              <a href="https://github.com/kevinwang97/uber-usage-visualization" target="_blank">
-                <button class="modal-button btn top-margin">Source Code</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/ytrb@thumb.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">YouTube Recommended Blocker</div>
-            <div class="project-description">
-              <p>Developed browser extensions to hide YouTube's recommended videos while allowing users to watch videos<p>
-              <!-- <a href="https://chrome.google.com/webstore/detail/recommended-video-blocker/hdabgpogdnllhoopchjdpmnlfniibkme?hl=en-US" target="_blank">
-                <button class="modal-button btn top-margin" >Chrome Extension</button>
-              </a>
-              <a href="https://safari-extensions.apple.com/details/?id=com.nolandey.ytrecommendedblocker-A5P7J5U845" target="_blank">
-                <button class="modal-button btn top-margin" >Safari Extension</button>
-              </a> -->
-              <a href="https://github.com/ndey96/youtube-recommended-blocker" target="_blank">
-                <button class="modal-button btn top-margin">Source Code</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/doyouevenlift@thumb.jpg">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Do You Even Lift?</div>
-            <div class="project-description">
-              <p>Designed EMG circuit which processes an electrical muscle signal and outputs the strength of the contraction<p>
-              <a href="https://youtu.be/Ux0fBjIb1eI" target="_blank">
-                <button class="modal-button btn top-margin" >Circuit Walkthrough</button>
-              </a>
-              <a href="https://github.com/ndey96/doYouEvenLift" target="_blank">
-                <button class="modal-button btn top-margin" >Source Code</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/bitnomics@thumb.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Bitnomics</div>
-            <div class="project-description">
-              <p>Displayed real-time bitcoin transactions by feeding the output from a Coinbase API web socket into a Kafka message queue, storing them in a CockroachDB (PostgreSQL) instance, and displaying them in a Node/React app<p>
-              <a href="https://github.com/LaurierMantel/bitnomics" target="_blank">
-                <button class="modal-button btn top-margin" >Source Code</button>
-              </a>
-            </div>
-          </div>
-        </div> -->
-        <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/fbnewsfeedblocker@thumb.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Facebook Newsfeed Blocker</div>
-            <div class="project-description">
-              <p>Released Safari Extension hiding Facebook Newsfeed while allowing other Facebook features</p>
-              <!-- <a href="https://safari-extensions.apple.com/details/?id=com.nolandey.bundleid-A5P7J5U845" target="_blank">
-                <button class="modal-button btn top-margin" >Download it!</button>
-              </a> -->
-              <a href="https://github.com/ndey96/FBNewsfeedBlocker" target="_blank">
-                <button class="modal-button btn top-margin">Source Code</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/saveme@thumb.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Save Me</div>
-            <div class="project-description">
-              <p>- Implemented app in Swift that calls 911 and texts emergency contacts in a single tap</p>
-              <p>- Interfaced with Node backend using Twilio to send texts when requests are received</p>
-              <a href="https://github.com/ndey96/SaveMe-iPhone" target="_blank">
-                <button class="modal-button btn top-margin" >iOS Source Code</button>
-              </a>
-              <a href="https://github.com/LaurierMantel/SaveMe-API" target="_blank">
-                <button class="modal-button btn top-margin">Backend Source Code</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/missilecommand@thumb.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Missile Command</div>
-            <div class="project-description">
-              <p>- Built Space Invaders game using an Arduino, an LED matrix, logic gates, and buttons</p>
-              <p>- Solved problems involving limited pins, hardware interrupts, and slow processor speed</p>
-              <a href="https://youtu.be/K2Q93NSWim4" target="_blank">
-                <button class="modal-button btn top-margin" >See it in action!</button>
-              </a>
-              <a href="https://github.com/ndey96/Missile-Command" target="_blank">
-                <button class="modal-button btn top-margin" >Source Code</button>
-              </a>
-            </div>
-          </div>
-        </div> -->
-        <!-- <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/1adesignproj@thumb.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Steer Safe</div>
-            <div class="project-description">
-              <p>- Problem: When racecar drivers crash, the steering wheel violently rotates which can break drivers' wrists if they are holding on to the steering wheel</p>
-              <p>- Solution: A device which stops the steering wheel from rotating if its velocity exceeds a certain threshold</p>
-              <a href="https://www.youtube.com/watch?v=Nd8EE4xIa8U&feature=youtu.be" target="_blank">
-                <button class="modal-button btn top-margin" >See it in action!</button>
-              </a>
-            </div>
-          </div>
-        </div> -->
-        <!-- <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/sciencefair@thumb.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Harnessing Wind Energy for Use in an Automobile</div>
-            <div class="project-description">
-              <p>- Explored feasibility of placing wind turbines inside the grille of a car</p>
-              <p>- Constructed wind tunnel and instrumented it to measure drag of objects</p>
-              <a href="sciencefair.pdf" target="_blank">
-                <button class="modal-button btn top-margin" >Full Report</button>
-              </a>
-            </div>
-          </div>
-        </div> -->
-        <!-- <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/jugbass@thumb.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Jug Bass</div>
-            <div class="project-description">
-              <h4>How it's Made:</h4>
-              <p>Neck: Pine 2x4</p>
-              <p>Body: Water Jug</p>
-              <p>Nut: Laminate flooring piece</p>
-              <p>Bridge: Store-bought</p>
-              <p>Strings: Store-bought</p>
-              <p>Tuning Pegs: Store-bought</p>
-              <p>Fret lines: Hand-drawn</p>
-              <a href="https://youtu.be/jmKplkd0ENc" target="_blank">
-                <button class="modal-button btn top-margin">Hear this bad boy!</button>
-              </a>
-            </div>
-          </div>
-        </div> -->
-        <!-- <div class="project">
-          <div class="project-image">
-            <img src="img/portfolio/bancroftlib@thumb.png">
-          </div>
-          <div class="project-text">
-            <div class="project-title">Bancroft Library Scale Model</div>
-            <div class="project-description">
-              <h4>How it's Made:</h4>
-              <p>Floorplan: Designed using AutoCAD</p>
-              <p>Walls: Spray-painted foam core</p>
-              <p>Columns: Tim Hortons Coffee Stir-sticks</p>
-              <p>Hand Rails: Tim Hortons Coffee Stir-sticks</p>
-            </div>
-          </div>
-        </div> -->
-      </div>
-      <!-- <div class="section-title end-title">That's all folks!</div> -->
     </div>
-
-		<!-- Experience Modals -->
-    <div class="modal fade" id="mf">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-                <a class="modal-header-anchor" href="https://mindfoundry.ai" target="_blank">
-                  <span class="modal-title">Mind Foundry</span>
-                </a>
-                <span class="modal-title"> - Machine Learning Research Intern</span>
-			        </div>
-			        <div class="modal-body">
-			            <ul class="modal-list">
-                    <li>Worked under Prof. Stephen Roberts to develop a general method of estimating the training time and memory usage of machine learning algorithms given a data set and hyperparameters</li>
-                    <li>Utilized SKLearn, NumPy, Pandas, MatPlotLib, Google Cloud Platform, and LaTeX</li>
-			            </ul>
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">Jun. 2018 - Aug. 2018</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
-
-    <div class="modal fade" id="apple">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-                <a class="modal-header-anchor" href="https://www.apple.com" target="_blank">
-                  <span class="modal-title">Apple</span>
-                </a>
-                <span class="modal-title"> - Web & Machine Learning Intern</span>
-			        </div>
-			        <div class="modal-body">
-			            <ul class="modal-list">
-                    <li>Identified and automated a costly labelling process with image classifier deployed on MacOS</li>
-                    <li>Leveraged SKLearn, MATLAB, NumPy, Pandas, Turi Create, and CoreML in image classifier</li>
-                    <li>Created a scheduling application with Ember, Rails, and D3 which improved internal workflows</li>
-			            </ul>
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">Sep. 2017 - Dec. 2017</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
-
-    <div class="modal fade" id="uw">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-                <a class="modal-header-anchor" href="https://uwaterloo.ca" target="_blank">
-                  <span class="modal-title">University of Waterloo</span>
-                </a>
-                <span class="modal-title"> - Undergraduate Research Assistant</span>
-			        </div>
-			        <div class="modal-body">
-			            <ul class="modal-list">
-                    <li>Under Prof. Jennifer Boger, enabled a woman with advanced multiple sclerosis to initiate and receive calls from a long-term care facility using a custom Android app and a bedside mount</li>
-			            </ul>
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">Jul. 2017 - Aug. 2017</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
-
-    <div class="modal fade" id="capital-one">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-                <a class="modal-header-anchor" href="http://tech.capitalone.ca/kwlab/" target="_blank">
-                  <span class="modal-title">Capital One</span>
-                </a>
-                <span class="modal-title"> - Data Engineering Intern</span>
-			        </div>
-			        <div class="modal-body">
-			            <ul class="modal-list">
-      							<li>Led development of event data pipeline which handled 480 MB/s and enabled $200k+ savings</li>
-                    <li>Leveraged Docker, Terraform, Ansible, AWS, Kafka, Snowplow, Scala, and Python in pipeline</li>
-                    <li>Performed error analysis on a model, identified a bug, and reduced prediction error by 21.4%</li>
-			            </ul>
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">Jan. 2017 - Apr. 2017</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
-
-    <div class="modal fade" id="parabol">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                <a class="modal-header-anchor" href="http://www.parabol.co" target="_blank">
-                  <span class="modal-title">Parabol</span>
-                </a>
-                <span class="modal-title"> - Full-Stack Developer Intern (Part-time)</span>
-              </div>
-              <div class="modal-body">
-                  <ul class="modal-list">
-                    <li>Remotely contributed to open-source web-app using Node, React, Redux, RethinkDB, GraphQL</li>
-                    <li>Implemented several features that improved the user experience and added key functionality</li>
-                  </ul>
-                  <a href="https://github.com/ParabolInc/action/pulls?utf8=✓&q=is%3Apr%20is%3Aclosed%20ndey96%20" target="_blank">
-                    <button class="modal-button btn">View Contributions</button>
-                  </a>
-              </div>
-              <div class="modal-footer">
-                <span class="modal-date">Jan. 2017 - Apr. 2017</span>
-                  <button class="modal-button btn" data-dismiss="modal">Close</button>
-              </div>
-          </div>
-      </div>
-    </div>
-
-		<div class="modal fade" id="connected-lab">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-			        	<a class="modal-header-anchor" href="http://connectedlab.com" target="_blank">
-				            <span class="modal-title">Connected Lab</span>
-			            </a>
-			            <span class="modal-title"> - Software Engineering Intern</span>
-			        </div>
-			        <div class="modal-body">
-			            <ul class="modal-list">
-      							<li>Wrote microservices using Node, React, MongoDB, CloudFoundry and pair programming</li>
-      							<li>Created analytics dashboard using chart.js and an API to provide business intelligence metrics</li>
-      							<li>Worked on iOS app enabling users to stream music to multiple speakers via wifi or bluetooth</li>
-			            </ul>
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">May 2016 - Present</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
-
-		<div class="modal fade" id="kik-ios">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-			        	<a class="modal-header-anchor" href="https://www.kik.com" target="_blank">
-				            <span class="modal-title">Kik Interactive</span>
-			            </a>
-			            <span class="modal-title"> - iOS Developer Intern</span>
-			        </div>
-			        <div class="modal-body">
-			        	<ul class="modal-list">
-			            <li>Wrote major social sharing feature in Objective-C over a four month development cycle</li>
-			            <li>Developed performant Tinder-like swiping screen using UICollectionView and CoreAnimation</li>
-			            <li>Pioneered network protocol using Google Protobuf which decreased data usage and latency</li>
-			        	</ul>
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">Sep. 2015 - Dec. 2015</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
-
-		<div class="modal fade" id="kik-qa">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-			        	<a class="modal-header-anchor" href="https://www.kik.com" target="_blank">
-				            <span class="modal-title">Kik Interactive</span>
-			            </a>
-			            <span class="modal-title"> - QA & Release Engineering Intern</span>
-			        </div>
-			        <div class="modal-body">
-						<ul class="modal-list">
-							<li>Implemented feature to translate messages in iOS app using Watson Language Translation</li>
-							<li>Wrote test suites, rigorously tested new features, and worked with developers to find issues</li>
-							<li>Planned and facilitated user experience tests with external users to collect usability data</li>
-						</ul>
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">Jan. 2015 - Apr. 2015</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
-
-		<div class="modal fade" id="cfc">
-			<div class="modal-dialog">
-			    <div class="modal-content">
-			        <div class="modal-header">
-			        	<a class="modal-header-anchor" href="http://www.carolsforcans.org" target="_blank">
-				            <span class="modal-title">Carols for Cans</span>
-			            </a>
-			            <span class="modal-title"> - Head Organizer<span>
-			        </div>
-
-			        <div class="modal-body">
-						<ul class="modal-list">
-							<li>Annually organize event where students sing Christmas carols in exchange for food donations </li>
-							<li>Donated 9864 food items to local food banks since 2012, with 568 students participating</li>
-							<li>Recruited organizers, coordinated logistics, facilitated meetings, and managed sales funnel</li>
-						</ul>
-			        </div>
-			        <div class="modal-footer">
-			        	<span class="modal-date">Dec. 2012 - Present</span>
-			            <button class="modal-button btn" data-dismiss="modal">Close</button>
-			        </div>
-			    </div>
-			</div>
-		</div>
+    </div> -->
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/scrollTo.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-  </body>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
