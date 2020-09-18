@@ -32,54 +32,72 @@
 </head>
 
 <body class="custom-body">
-    <div class="section1" id="about-me">
-      <div class='section1-container'>
+    <div class="section" id="about-me">
+      <div class='section-container'>
         <div class="title">Nolan Dey</div>
         <div class="portrait-container">
             <img class="portrait" src="img/paris_headshot.png">
         </div>
         <div class='bio'>
-          <p>I am a MASc student in Systems Design Engineering at the University of Waterloo, where I am advised by Bryan Tripp, Graham Taylor, and Alexander Wong. My thesis topic is adapting neuroscience methods to explain deep network function. My research interests include using neuroscience to inspire neural algorithms, neural network explainability, and data efficient reinforcement learning.</p>
+          <p>I am a MASc student in Systems Design Engineering at the University of Waterloo, where I am advised by Bryan Tripp, Graham Taylor, and Alexander Wong. My thesis topic is adapting neuroscience methods to explain deep network function. My research interests include using neuroscience to inspire neural algorithms, neural network explainability, and data efficient reinforcement learning. I also run a <a href='https://ndey96.github.io/deep-learning-paper-club/'>Deep Learning Reading Club</a></p>
           <p>I completed my BASc in Systems Design Engineering at the University of Waterloo, where I completed machine learning internships at Apple, Capital One, and Mind Foundry.</p>
         </div>
-        <div class='links'><a href="mailto:nsdey@uwaterloo.ca" target="_blank">nsdey@uwaterloo.ca</a>  /  <a href="resume.pdf" target="_blank" type="application/pdf">CV</a>  /  <a href="https://github.com/ndey96" target="_blank">GitHub</a>  /  <a href="http://www.linkedin.com/in/nolandey" target="_blank">LinkedIn</a></div>
+        <div class='links'><a href="mailto:nsdey@uwaterloo.ca" target="_blank">nsdey@uwaterloo.ca</a>  /  <a href="resume.pdf" target="_blank" type="application/pdf">CV</a>  /  <a href="https://github.com/ndey96" target="_blank">GitHub</a>  /  <a href="https://medium.com/@nolandey" target="_blank">Blog</a>  /  <a href="http://www.linkedin.com/in/nolandey" target="_blank">LinkedIn</a></div>
       </div>
     </div>
     <!-- Projects -->
-    <!-- <div class="section-title projects-section-title" id="projects">Projects</div>
+    <div class="section" id="projects">
+    <div class='section-container'>
+    <div class="section-title projects-section-title" id="projects">Projects</div>
     <div class="projects">
         <div class="project">
             <div class="project-image">
-                <img src="img/cfc.png">
+                <img src="img/spiking-actor-critic.png">
             </div>
             <div class="project-text">
-                <div class="project-title">Carols for Cans</div>
+                <div class="project-title">Actor-Critic RL using Spiking Neurons</div>
                 <div class="project-description">
-                    <ul>
-                        <li>Annually organize event where students sing Christmas carols in exchange for food donations </li>
-                        <li>Donated 9864 food items to local food banks since 2012, with 568 students participating</li>
-                        <li>Recruited organizers, coordinated logistics, facilitated meetings, and managed sales funnel</li>
-                    </ul>
+                    <p>Released the only <a href='https://github.com/ndey96/spiking-actor-critic' target="_blank">open-source implementation</a> of <a href='https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003024' target="_blank">“Reinforcement Learning Using a Continuous Time Actor-Critic Framework with Spiking Neurons” by Frémaux et al.</a> using Nengo and OpenAI Gym</p>
                 </div>
             </div>
         </div>
         <div class="project">
             <div class="project-image">
-                <img src="img/cfc.png">
+                <img src="img/dgn.png">
             </div>
             <div class="project-text">
-                <div class="project-title">SYDE Survey 2019</div>
+                <div class="project-title">Synthesizing Preferred Inputs for Deep Neurons via GANs</div>
                 <div class="project-description">
-                    <ul>
-                        <li>Annually organize event where students sing Christmas carols in exchange for food donations </li>
-                        <li>Donated 9864 food items to local food banks since 2012, with 568 students participating</li>
-                        <li>Recruited organizers, coordinated logistics, facilitated meetings, and managed sales funnel</li>
-                    </ul>
+                    <p>Released the only modern <a href='https://github.com/ndey96/deep-generator-network' target="_blank">open-source implementation</a> of <a href='https://papers.nips.cc/paper/6519-synthesizing-the-preferred-inputs-for-neurons-in-neural-networks-via-deep-generator-networks.pdf' target="_blank">“Synthesizing the preferred inputs for neurons in neural networks via deep generator networks” by Nguyen et al.</a> using PyTorch (originally Caffe 1.X)</p>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-image">
+                <img src="img/gcnn.png">
+            </div>
+            <div class="project-text">
+                <div class="project-title">Graph Convolutional Neural Network Explainability</div>
+                <div class="project-description">
+                    <p>Released the only <a href='https://github.com/ndey96/GCNN-Explainability' target="_blank">open-source implementation</a> of <a href='https://openaccess.thecvf.com/content_CVPR_2019/papers/Pope_Explainability_Methods_for_Graph_Convolutional_Neural_Networks_CVPR_2019_paper.pdf' target="_blank">“Explainability Methods for Graph Convolutional Neural Networks” by Pope & Kolouri et al.</a> using PyTorch Geometric and RDKit</p>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-image">
+                <img src="img/survey.png">
+            </div>
+            <div class="project-text">
+                <div class="project-title"><a href='https://ndey96.github.io/syde_2019_class_profile.pdf' target='_blank'>SYDE 2019 Class Survey</a></div>
+                <div class="project-description">
+                    <p>Surveyed 55 respondents from my undergraduate class with questions related to demographics, academics, internships, lifestyle, and post-graduation plans. Published a <a href="https://ndey96.github.io/syde_2019_class_profile.pdf" target="_blank">detailed analysis of the survey results with 109 graphs</a> and <a href='https://github.com/ndey96/SYDE-Survey' target="_blank">open-sourced my code</a> to help future classes conduct similar surveys</p>
                 </div>
             </div>
         </div>
     </div>
-    </div> -->
+    </div>
+    </div>
+    </div>
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/scrollTo.js"></script>

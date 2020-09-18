@@ -13,23 +13,18 @@ body {
 }
 html {background-color: var(--primary-color)}
 
-.section1 {
+.section {
 	background-color: var(--primary-color);
-	padding: 30px 0 30px 0;
+	/*padding: 30px 0 0 0;*/
 }
 
-.section1-container {
-	width: 50%;
+.section-container {
+	width: 90%;
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 400px) {
-	.section1-container {
-		width: 90%;
-	}
-}
-
 .title {
+	padding-top: 30px;
 	font-size: 96px;
 	font-weight: 400;
 	text-align: center;
@@ -61,32 +56,36 @@ html {background-color: var(--primary-color)}
 	text-align: center;
 }
 
-/*.projects {
-	display: inline-table;
-	margin-bottom: 20px;
+.section-title {
+	font-weight: 400;
+	font-size: 48px;
+	padding:20px;
+	color: black;
+	text-align: center;
 }
 
 .project {
-	padding: 40px 0;
+	margin-top: 30px;
 	display: inline-flex;
-	width: 50%
 }
 
 .project-image {
 	display: inline-block;
-	margin-left: 20px;
-	width: 30%;
+	margin: auto 0;
+	text-align: center;
+	width: 25%;
 }
 
 .project-image img {
-	width: 100%;
-	max-width: 350px;
+	/*width: 100%;*/
+	/*max-width: 350px;*/
+	max-height: 170px;
 }
 
 .project-text {
-	color: var(--primary-color);
-	margin: 0 10px 0 20px;
-	width: 70%;
+	display: inline-block;
+	width: 75%;
+	margin-left: 20px;
 }
 
 .project-title {
@@ -96,23 +95,17 @@ html {background-color: var(--primary-color)}
 }
 
 .project-description {
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 400;
 }
 
-.portfolio-container {
-  margin: 10px 0;
+.projects {
+	/*display: inline-table;*/
+	padding-bottom: 30px;
 }
 
-.section-title {
-	font-weight: 400;
-	font-size: 48px;
-	padding:20px;
-	color: var(--primary-color);
-	text-align: center;
+@media screen and (max-width: 700px) {
+	.project-image {
+		width: unset;
+	}
 }
-
-.end-title {
-	margin-bottom: 30px;
-}*/
-
