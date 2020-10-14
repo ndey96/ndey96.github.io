@@ -94,13 +94,24 @@ html {background-color: var(--primary-color)}
 .project-title {
 	font-size: 32px;
 	font-weight: 400;
-	margin-bottom: 20px;
+	margin-bottom: 12px;
 }
 
 .project-description {
 	font-size: 24px;
 	font-weight: 400;
 }
+
+.project-venue {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.project-authors {
+	font-size: 24px;
+	font-weight: 400;
+}
+
 
 .projects {
 	/*display: inline-table;*/

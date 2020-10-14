@@ -10,25 +10,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+<!--     <link rel="stylesheet" href="css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <title>Nolan Dey</title>
-    <!-- Google Analytics -->
-    <script>
-        (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-93904294-1', 'auto');
-    ga('send', 'pageview');
-    </script>
 </head>
 
 <body class="custom-body">
@@ -39,12 +23,42 @@
             <div class="title">Nolan Dey</div>
         </div>
         <div class='bio'>
-          <p>I am a MASc student in Systems Design Engineering at the University of Waterloo, where I am advised by <a href='https://uwaterloo.ca/systems-design-engineering/profile/bptripp' target='_blank'>Bryan Tripp</a>, <a href='https://www.gwtaylor.ca' target='_blank'>Graham Taylor</a>, and <a href='https://www.eng.uwaterloo.ca/~a28wong/' target='_blank'>Alexander Wong</a>. My thesis topic is interpreting tuning dimensions in deep neural networks. My research interests include using neuroscience to inspire neural algorithms, neural network explainability, and reinforcement learning. I also run a <a href='https://ndey96.github.io/deep-learning-paper-club/' target='_blank'>Deep Learning Reading Club</a></p>
+          <p>I am a MASc student in Systems Design Engineering at the University of Waterloo, where I am supervised by <a href='https://uwaterloo.ca/systems-design-engineering/profile/bptripp' target='_blank'>Bryan Tripp</a>, <a href='https://www.gwtaylor.ca' target='_blank'>Graham Taylor</a>, and <a href='https://www.eng.uwaterloo.ca/~a28wong/' target='_blank'>Alexander Wong</a>. My thesis topic is interpreting tuning dimensions in deep neural networks. My research interests include neural network explainability, using neuroscience to inspire neural algorithms, generative modelliing, and reinforcement learning. I also run a <a href='https://ndey96.github.io/deep-learning-paper-club/' target='_blank'>Deep Learning Reading Club</a></p>
           <p>I completed my BASc in Systems Design Engineering at the University of Waterloo, where I completed machine learning internships at <a href='https://www.mindfoundry.ai' target='_blank'>Mind Foundry</a>, <a href='https://www.apple.com' target='_blank'>Apple</a>, and <a href='https://www.capitalone.com' target='_blank'>Capital One</a> and software engineering interships at <a href='https://www.parabol.co' target='_blank'>Parabol</a>, <a href='https://connected.io' target='_blank'>Connected</a>, and <a href='https://www.kik.com' target='_blank'>Kik</a>.</p>
         </div>
         <div class='links'><a href="mailto:nsdey@uwaterloo.ca" target="_blank">nsdey@uwaterloo.ca</a>  /  <a href="resume.pdf" target="_blank" type="application/pdf">CV</a>  /  <a href="https://github.com/ndey96" target="_blank">GitHub</a>  /  <a href="https://medium.com/@nolandey" target="_blank">Blog</a>  /  <a href="http://www.linkedin.com/in/nolandey" target="_blank">LinkedIn</a></div>
       </div>
     </div>
+    <!-- Research -->
+<div class="section" id="projects">
+    <div class='section-container'>
+    <div class="section-title projects-section-title" id="projects">Research</div>
+    <div class="projects">
+        <div class="project">
+            <div class="project-image">
+                <img src="img/svrhm.png">
+            </div>
+            <div class="project-text">
+                <div class="project-title"><a href='https://openreview.net/forum?id=S8_NOvrNaqC' target="_blank">Identifying and interpreting tuning dimensions in deep networks</a></div>
+                <div class="project-venue">Submitted to Shared Visual Representations in Human & Machine Intelligence NeurIPS Workshop, 2020</div>
+                <div class="project-authors">Nolan S. Dey, J. Eric Taylor, Bryan P. Tripp, Alexander Wong, Graham W. Taylor</div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-image">
+                <img src="img/grasping.png">
+            </div>
+            <div class="project-text">
+                <div class="project-title"><a href='https://ieeexplore.ieee.org/document/9013061' target="_blank">37,000 Human-Planned Robotic Grasps With Six Degrees of Freedom</a></div>
+                <div class="project-venue">IEEE Robotics and Automation Letters, 2020</div>
+                <div class="project-authors">Victor R. Osorio, Rajan Iyengar, Xueyang Yao, Preshish Bhattachan, Adrian Ragobar, Nolan Dey, Bryan Tripp</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
     <!-- Projects -->
     <div class="section" id="projects">
     <div class='section-container'>
@@ -68,7 +82,7 @@
             <div class="project-text">
                 <div class="project-title">Synthesizing Preferred Inputs for Deep Neurons via GANs</div>
                 <div class="project-description">
-                    <p>Released the only modern <a href='https://github.com/ndey96/deep-generator-network' target="_blank">open-source implementation</a> of <a href='https://papers.nips.cc/paper/6519-synthesizing-the-preferred-inputs-for-neurons-in-neural-networks-via-deep-generator-networks.pdf' target="_blank">“Synthesizing the preferred inputs for neurons in neural networks via deep generator networks” by Nguyen et al.</a> using PyTorch (originally Caffe 1.X)</p>
+                    <p>Released an <a href='https://github.com/ndey96/deep-generator-network' target="_blank">open-source PyTorch implementation</a> (originally Caffe 1.X) of <a href='https://papers.nips.cc/paper/6519-synthesizing-the-preferred-inputs-for-neurons-in-neural-networks-via-deep-generator-networks.pdf' target="_blank">“Synthesizing the preferred inputs for neurons in neural networks via deep generator networks” by Nguyen et al.</a></p>
                 </div>
             </div>
         </div>
@@ -79,7 +93,7 @@
             <div class="project-text">
                 <div class="project-title">Graph Convolutional Neural Network Explainability</div>
                 <div class="project-description">
-                    <p>Released the only <a href='https://github.com/ndey96/GCNN-Explainability' target="_blank">open-source implementation</a> of <a href='https://openaccess.thecvf.com/content_CVPR_2019/papers/Pope_Explainability_Methods_for_Graph_Convolutional_Neural_Networks_CVPR_2019_paper.pdf' target="_blank">“Explainability Methods for Graph Convolutional Neural Networks” by Pope & Kolouri et al.</a> using PyTorch Geometric and RDKit</p>
+                    <p>Released the only <a href='https://github.com/ndey96/GCNN-Explainability' target="_blank">open-source implementation</a> of <a href='https://openaccess.thecvf.com/content_CVPR_2019/papers/Pope_Explainability_Methods_for_Graph_Convolutional_Neural_Networks_CVPR_2019_paper.pdf' target="_blank">“Explainability Methods for Graph Convolutional Neural Networks” by Pope & Kolouri et al.</a> using PyTorch-Geometric and RDKit</p>
                 </div>
             </div>
         </div>
