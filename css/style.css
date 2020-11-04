@@ -19,7 +19,7 @@ html {background-color: var(--primary-color)}
 }
 
 .section-container {
-	width: 90%;
+	width: 75%;
 	margin: 0 auto;
 }
 
@@ -74,15 +74,15 @@ html {background-color: var(--primary-color)}
 
 .project-image {
 	display: inline-block;
-	margin: auto 0;
+	margin-right: 30px;
 	text-align: center;
-	width: 25%;
+	width: 20%;
 }
 
 .project-image img {
-	/*width: 100%;*/
-	/*max-width: 350px;*/
-	max-height: 170px;
+	/*width: 170px;*/
+	width: 70%;
+	/*max-height: 170px;*/
 }
 
 .project-text {
