@@ -29,7 +29,7 @@ html {background-color: var(--primary-color)}
 }
 
 .portrait-container img {
-	width: 170px;
+	width: 120px;
 	text-align: center;
 	display: inline-block;
 	margin: auto 0;
@@ -37,7 +37,7 @@ html {background-color: var(--primary-color)}
 
 .title {
 	display: inline-block;
-	font-size: 69px;
+	font-size: 48px;
 	font-weight: 500;
 	color: var(--secondary-color);
 	vertical-align: middle;
@@ -45,7 +45,7 @@ html {background-color: var(--primary-color)}
 }
 
 .bio {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
 	text-align: center;
 	color: var(--secondary-color);
@@ -53,7 +53,7 @@ html {background-color: var(--primary-color)}
 }
 
 .links {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
 	text-align: center;
 	margin-bottom: 30px;
@@ -61,7 +61,7 @@ html {background-color: var(--primary-color)}
 
 .section-title {
 	font-weight: 400;
-	font-size: 48px;
+	font-size: 32px;
 	padding:20px;
 	color: black;
 	text-align: center;
@@ -93,28 +93,33 @@ html {background-color: var(--primary-color)}
 }
 
 .project-title {
-	font-size: 32px;
-	font-weight: 400;
+	font-size: 24px;
+	font-weight: 500;
 }
 
 .project-description {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
 	margin-top: 12px;
 }
 
 .project-venue {
-	font-size: 24px;
-	font-weight: 500;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
 }
 
 .project-authors {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
 }
 
+.project-authors-me {
+	font-weight: 600;
+}
+
 .project-links {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
 }
 
