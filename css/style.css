@@ -30,7 +30,10 @@ html {background-color: var(--primary-color)}
 }
 
 .portrait-container img {
-	width: 120px;
+	width: 180px;
+	height: 180px;
+	object-fit: cover; /* ensures it doesn’t stretch */
+	border-radius: 50%;
 	text-align: center;
 	display: inline-block;
 	margin: auto 0;
@@ -38,7 +41,7 @@ html {background-color: var(--primary-color)}
 
 .title {
 	display: inline-block;
-	font-size: 48px;
+	font-size: 54px;
 	font-weight: 500;
 	color: var(--secondary-color);
 	vertical-align: middle;
